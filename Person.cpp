@@ -21,4 +21,5 @@ void Person::ShowPersonInfo() const {
 Person::~Person() {
 	delete[]name;
 	cout << "called destructor..." << endl;
+	cout << "good bye!!!" << endl;
 }
