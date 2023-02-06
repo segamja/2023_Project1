@@ -6,7 +6,8 @@ using namespace std;
 
 // 생성자
 Person::Person(const char* myname, int myage) {
-	int len = strlen(myname) + 1;
+	int len = 0;
+	len =  strlen(myname) + 1;
 	name = new char[len];
 	strcpy_s(name,len, myname);
 	age = myage;
