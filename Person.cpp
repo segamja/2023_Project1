@@ -4,6 +4,7 @@
 #include <cstring>
 using namespace std;
 
+// ìƒì„±ì
 Person::Person(const char* myname, int myage) {
 	int len = strlen(myname) + 1;
 	name = new char[len];
@@ -12,9 +13,10 @@ Person::Person(const char* myname, int myage) {
 }
 
 void Person::ShowPersonInfo() const {
-	cout << "ÀÌ¸§: " << name << endl;
-	cout << "³ªÀÌ: " << age << endl;
+	cout << "ï¿½Ì¸ï¿½: " << name << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½: " << age << endl;
 }
+// ì†Œë©¸ì
 Person::~Person() {
 	delete[]name;
 	cout << "called destructor..." << endl;
