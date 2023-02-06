@@ -6,8 +6,8 @@
 
 int main()
 {
-	Person man1("Hong gil dong", 23);
-	Person man2("Jang dong gun", 30);
+	Person man1("Hong gil dong", 23);		// 객체1 생성
+	Person man2("Jang dong gun", 30);		// 객체2 생성
 	man1.ShowPersonInfo();
 	man2.ShowPersonInfo();
 	return 0;

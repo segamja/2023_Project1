@@ -13,8 +13,8 @@ Person::Person(const char* myname, int myage) {
 }
 
 void Person::ShowPersonInfo() const {
-	cout << "�̸�: " << name << endl;
-	cout << "����: " << age << endl;
+	cout << "name: " << name << endl;
+	cout << "age: " << age << endl;
 }
 // 소멸자
 Person::~Person() {
